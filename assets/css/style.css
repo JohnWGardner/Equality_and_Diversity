@@ -12,10 +12,12 @@ header{
     margin: 0;
 }
 
-.logo{    
+.logo {
+    background: url(../images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
+    background-size: contain; 
+    width: 100%; 
+    height: auto;
     transition: .9s ease-in-out;
 }
