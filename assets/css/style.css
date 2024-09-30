@@ -37,20 +37,29 @@ header{
     width: 200px;
 }
 
+.jumbotron a.custom-btn {
+    width: 300px !important; 
+    height: 60px !important; 
+    font-size: 20px !important; 
+    padding: 15px 30px !important; 
+    margin: 10px !important; 
+}
+
 /*--------------------------------------------main section*/
 
-.pic {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.pic {   
     background: url(../images/diversity.png);     
     background-position: center;
     background-repeat: no-repeat;    
     background-size: contain; 
     width: 100%;     
     min-height: 650px;
-    /* height: auto; */
     transition: .9s ease-in-out;
+     /* display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto; */
+    
 }
 /*--------------------------------------------Footer*/
 
@@ -60,11 +69,11 @@ footer {
     text-align: center;
 }
 
-/*/*--------------------------------------------Media Queries 4 Mobile*/
+/*--------------------------------------------Media Queries 4 Mobile*/
 @media (max-width: 768px) {
     .pic {
         min-height: 300px; 
-        margin-top: 20px; 
+        margin-top: -70px; 
     }
 
     .jumbotron {
@@ -76,4 +85,21 @@ footer {
         width: 100%; 
     }
 
+}
+
+/*--------------------------------------------Media Queries 4 desktop*/
+@media (min-width: 769px) {
+    .pic {
+        min-height: 650px; 
+        margin-top: 20px; 
+    }
+
+    .jumbotron {
+        padding: 4rem 2rem; 
+    }
+
+    .jumbotron a {
+        margin-top: 30px; 
+        width: auto; 
+    }
 }
