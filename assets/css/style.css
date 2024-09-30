@@ -31,20 +31,6 @@ header{
     background-color: #63ADD2;
     padding: 4rem 2rem;
 }
-
-.jumbotron a {
-    margin-top: 40px;
-    width: 200px;
-}
-
-.jumbotron a.custom-btn {
-    width: 300px !important; 
-    height: 60px !important; 
-    font-size: 20px !important; 
-    padding: 15px 30px !important; 
-    margin: 10px !important; 
-}
-
 /*--------------------------------------------main section*/
 
 .pic {   
@@ -55,20 +41,40 @@ header{
     width: 100%;     
     min-height: 650px;
     transition: .9s ease-in-out;
-     /* display: flex;
-    justify-content: center;
-    text-align: center;
-    height: auto; */
-    
 }
+.learn p{
+    margin-top: 30px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
     background-color: #63ADD2;
-    padding: 500px;
+    padding: 50px;
     text-align: center;
 }
+#footer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.social li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 30%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #5645ee;
+    transition: all 0.9s ease-in-out;    
+}
+
+.social li a i:hover {
+    background: #00ce2d;
+}
 /*--------------------------------------------Media Queries 4 Mobile*/
 @media (max-width: 768px) {
     .pic {
@@ -99,7 +105,10 @@ footer {
     }
 
     .jumbotron a {
-        margin-top: 30px; 
-        width: auto; 
+        width: 200px; 
+        height: 60px; 
+        font-size: 20px; 
+        padding: 15px 30px; 
+        margin: 10px; 
     }
 }
