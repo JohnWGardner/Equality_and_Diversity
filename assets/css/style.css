@@ -1,29 +1,51 @@
 /*--------------------------------------------FONT Framework*/
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&display=swap');
 
-/*--------------------------------------------bg-colors*/
-
-
+/*--------------------------------------------nav*/
+/* duplication of code here, if I ahd more time I would change this to an UL in index and encapsulate this code in a parent class to reduce code duplication   */
 
 .home{
-    background-color: #b71743; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 2em;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #D26363; 
     color: yellow; 
-    height: 120px;    
-    
+    height: 120px;
+    /* background: linear-gradient(to right, transparent, #63ADD2 50%, transparent); */
 }
 .growth{
-    background-color: #b71743; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #D26363; 
     color: yellow;
+    height: 120px;
 }
 
 .change{
-    background-color: #b71743; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #D26363; 
     color: yellow;
+    height: 120px;
 }
 
 .about{
-    background-color: #b71743; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #D26363; 
     color: yellow;
+    height: 120px;
 }
 
 /*--------------------------------------------Heading*/
@@ -49,36 +71,32 @@ header{
     background-color: #63ADD2;
 }
 
-.heading{
-    font-family: "Indie Flower", sans-serif;
-    font-size: 80px;
-    font-weight: 400; 
-    /* background-color: gray; */
-    margin-top: 50px;
-    text-decoration-line: underline;
-    text-decoration-thickness: 3px;
-}
-.sub_heading{
-    font-family: "Gamja Flower", sans-serif;
-    font-size: 55px;
-    font-weight: 200;
+.jumbotron {    
+    background-color: #63ADD2;
+    padding: 4rem 2rem;
 }
 
-#nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #63ADD2;  */
-    height: 120px;    
-    text-align: center;
+.jumbotron a {
+    margin-top: 40px;
+    width: 200px;
 }
 
+/*--------------------------------------------main section*/
 
-/*--------------------------------------------Special Sizing/Padding/Margins*/
-
-
+.pic {
+    background: url(../images/diversity.png);    
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: contain; 
+    width: 50%;     
+    min-height: 650px;
+    height: auto;
+    transition: .9s ease-in-out;
+}
 /*--------------------------------------------Footer*/
 
-footer{
-    background-color: #C5E3EC;
+footer {
+    background-color: #63ADD2;
+    padding: 500px;
+    text-align: center;
 }
