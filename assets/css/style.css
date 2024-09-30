@@ -1,63 +1,19 @@
 /*--------------------------------------------FONT Framework*/
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&display=swap');
 
-/*--------------------------------------------nav*/
-/* duplication of code here, if I ahd more time I would change this to an UL in index and encapsulate this code in a parent class to reduce code duplication   */
-
-.home{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    font-size: 2em;
-    font-family: "Indie Flower", sans-serif;
-    background-color: #D26363; 
-    color: yellow; 
-    height: 120px;
-    /* background: linear-gradient(to right, transparent, #63ADD2 50%, transparent); */
-}
-.growth{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    font-family: "Indie Flower", sans-serif;
-    background-color: #D26363; 
-    color: yellow;
-    height: 120px;
-}
-
-.change{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    font-family: "Indie Flower", sans-serif;
-    background-color: #D26363; 
-    color: yellow;
-    height: 120px;
-}
-
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    font-family: "Indie Flower", sans-serif;
-    background-color: #D26363; 
-    color: yellow;
-    height: 120px;
+/*--------------------------------------------Color*/
+body{
+    background-color: #63ADD2;
 }
 
 /*--------------------------------------------Heading*/
-
 header{
     margin: 0;
 }
 
 
 .logo {
-    background: url(../images/logo2.png);
-    background-color: #63ADD2;
+    background: url(../images/logo2.png);   
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -84,13 +40,16 @@ header{
 /*--------------------------------------------main section*/
 
 .pic {
-    background: url(../images/diversity.png);    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/diversity.png);     
     background-position: center;
     background-repeat: no-repeat;    
     background-size: contain; 
-    width: 50%;     
+    width: 100%;     
     min-height: 650px;
-    height: auto;
+    /* height: auto; */
     transition: .9s ease-in-out;
 }
 /*--------------------------------------------Footer*/
@@ -99,4 +58,22 @@ footer {
     background-color: #63ADD2;
     padding: 500px;
     text-align: center;
+}
+
+/*/*--------------------------------------------Media Queries 4 Mobile*/
+@media (max-width: 768px) {
+    .pic {
+        min-height: 300px; 
+        margin-top: 20px; 
+    }
+
+    .jumbotron {
+        padding: 2rem 1rem; 
+    }
+
+    .jumbotron a {
+        margin-top: 20px; 
+        width: 100%; 
+    }
+
 }
