@@ -7,36 +7,24 @@
 
 - - - -
 # Project Goals #
-## 1. User goals
-- The users goal is to gather information about diversity and inclusion in the workplace or educational environment.
-
-- The users goal is to being able to navigate a visually appealing, easy-to-navigate webpage.
-
-- The users goal is to use our information presented in diversity and inclusion in the workplace or educational environment. 
-
-- The users goal is to better understand and implement positive diversity and inclusion change within the workplace and educational environment. 
+## 1. Understand the Purpose:
+- Provide users with a basic understanding of diversity and inclusion in the workplace or educational environment.
+- Present information in a straightforward, organized format that is easy to understand and navigate.
     
-## 2. Site Owner Goals
-- The site owner goal is to provide unbiased information about diversity and inclusion in the workplace or educational environment.
-
-- The site owner goal is to increase the knowledge, understanding and positve changes that enhance diversity and inclusion in the workplace and educational environment.
-
-- The site owner goal is to take feedback from users and provide better information to the public
+## 2. Dev Key Goals:
+- Create a visually appealing, easy-to-navigate webpage that introduces diversity and inclusion concepts and offers basic guidance on implementing these practices.
+- Design and implement the webpage within the available resources and timeframe.
+- Ensure the content aligns with the broader goal of promoting diversity and inclusion in the workplace or educational settings.
+- Set a timeline for the development and launch of the webpage, with milestones for content creation, design, and testing.
 - - - -
-# Features #
+# Potential Features: #
 
 ## Index Page
-### Carousel
-The site features a way to display information on gain a basic understanding of diversity and inclusion in the workplace or educational environment., it’s home page prominently features a carousel of hero images that can display a basic understanding of diversity and inclusion in the workplace or educational environment.
-### Cards
-Below that are 3 cards that feature guides available with a short snippet of information and you can quickly choose the guide you wish rather than browsing the entire guide page. Selecting the guide you want will send you to the correct section of the guides page via an ID.  The cards are responsive going into a single column on a small screen and showing as a row of 3 on medium and larger screens.
-Below that is some information regarding Welsh rules on wild camping.
 
-## Guides Page
-The guides page is multiple pages in one and can be expanded downwards with further guides. It is responsive showing as a single column on smaller screens and two on medium and larger screens. The order on smaller screens is image > text > image > text however on medium and larger screens it will alternate to make the site more visually interesting and balanced. The guides have an accordion element from bootstrap that can be used to store extra information, a map iframe has been used as an example.
-
-## Contact page
-This page has used the min() function to fluidly size for many screen sizes at and between breakpoints to ensure a consistent view, the body is size to the viewport to ensure the footer remains at the bottom of the page without using a fixed position as fixed position cause issues with overlapping of the form and footer at smaller screen sizes
+- Use Bootstrap’s Jumbotron to introduce the topic with a message and a simple background image or color.
+- Organize content into clear sections usinga simple Bootstrap grid system, with headings and paragraphs that outline key principles of diversity and Equality.
+- A simple list of tips or best practices, styled using Bootstrap’s list group component, to help users understand how to promote diversity.
+- Use Bootstrap’s button styling for links to an external resource, making them easy to identify and click.
 
 - - - -
 # UX/UI #
@@ -47,19 +35,51 @@ This page has used the min() function to fluidly size for many screen sizes at a
   - People specifically looking for gain a basic understanding of diversity and inclusion in the workplace or educational environment.
   - Users looking for gain a basic understanding of diversity and inclusion in the workplace or educational environment.
 
- ## 2. User Stories
-  - As a first time user, I want a navbar to easily navigate to the content I want.
-  - As a first time user, I want an introduction, blurb or image to easily understand the main purpose of the site.
-  - As a first time user, I want a guide/article to get a general rundown on the location. (i.e Transport, accommodation, events, food/drink, local history)
-  - As a  first time user, I need a map of the location.
+  ## 2. User Stories #
 
-  - As a returning user, I want to contact the organisation to provide feedback
-  - As a returning user, I want to leave a review
+  - As a user, I want to understand the basic concepts of diversity and inclusion, so that I can apply them in my workplace or educational environment.
 
-  - As a site owner I want a logo in order to help identify the brand.
-  - As a site owner, I want users to find the visually pleasing travel content easily.
-  - As a site owner, I want users to be able to book or find out more on the respective websites mentioned in the content
-  - As a site owner, I want to display an engaging carousel of hero images so that users are more likely to book tours
+  ## Acceptance Criteria:
+    - The webpage should have a clear and concise introduction to diversity and inclusion.
+    - The content should be organized into easily digestible sections.
+    - Use simple language and avoid jargon.
+    - As a user, I want to find practical tips on promoting diversity and inclusion, so that I can implement these practices effectively.
+
+  ### - As a user, I want to find practical tips on promoting diversity and inclusion, so that I can implement these practices effectively.
+
+  ## Acceptance Criteria:
+    - A list of tips or best practices should be prominently displayed.
+    - Tips should be actionable and easy to understand.
+    - As a user, I want to access additional resources on diversity and inclusion, so that I can further my knowledge and understanding.
+
+  ### - As a user, I want to access additional resources on diversity and inclusion, so that I can further my knowledge and understanding.
+
+  ## Acceptance Criteria:
+    - The webpage should include links to external resources.
+    - Ensure links open in a new tab to keep users on the main page.
+    - As a user, I want the webpage to be visually appealing and easy to navigate, so that I can find the information I need without difficulty.
+
+  ### - As a user, I want the webpage to be visually appealing and easy to navigate, so that I can find the information I need without difficulty.
+
+  ## Acceptance Criteria:
+    - Use a well-designed header section for the hero section.
+    - Implement a clean and modern design
+    - Ensure the layout is responsive and works well on different devices.
+    - As a user, I want to see real-life examples and success stories of diversity and inclusion, so that I can be inspired and motivated to take action.
+
+  ### - As a user, I want to see real-life examples and success stories of diversity and inclusion, so that I can be inspired and motivated to take action.
+
+  ## Acceptance Criteria:
+    - Include a section with case studies or success stories.
+    - Ensure the examples are relevant and relatable.
+    - As a user, I want to be able to contact someone for more information or support, so that I can get help if I have questions or need guidance.
+
+  ### - As a user, I want to be able to contact someone for more information or support, so that I can get help if I have questions or need guidance.
+
+  ## Acceptance Criteria:
+    - Provide a contact form or email link.
+    - Ensure the contact information is easy to find.
+
 - - - -
  ## 2. Design Choice
  
@@ -68,9 +88,6 @@ This page has used the min() function to fluidly size for many screen sizes at a
  ##  Fonts
  
  ### Main Content 
-
- ### Home Title & Wild Camping  
-
  
  ## Wireframes
     
@@ -78,8 +95,8 @@ This page has used the min() function to fluidly size for many screen sizes at a
  
  ## Logo
 
-- CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css and logo.css
-- Images used are in the assests folder in the logo sub-folder files are 
+- CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css
+- Images used are in the assests folder
 - - - -
 # Testing #
 
@@ -193,3 +210,7 @@ How this site was deployed
 - I would like to implement a review system where users can leave reviews & feedback that would be shown on the site. This requires an API/database that is not currently within our scope.
 - - - -
 ## Readme
+
+Ref:  www.codewithfaraz.com for: registration form in about me
+      https://eelslap.com/ for: eelslap
+      https://learn.codeinstitute.net/ for: most code / text /knowledge
