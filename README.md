@@ -43,7 +43,6 @@
     - The webpage should have a clear and concise introduction to diversity and inclusion.
     - The content should be organized into easily digestible sections.
     - Use simple language and avoid jargon.
-    - As a user, I want to find practical tips on promoting diversity and inclusion, so that I can implement these practices effectively.
 
   ### - As a user, I want to find practical tips on promoting diversity and inclusion, so that I can implement these practices effectively.
 
@@ -82,94 +81,71 @@
 
 - - - -
  ## 2. Design Choice
+
+ 
  
  ##  Colour Scheme
+
+ vibrant color scheme to emphasise the value of making and being the change
  
  ##  Fonts
+
+ standard Jumbo fonts apert from the home page 'why' section
  
  ### Main Content 
+
+ info on diversity and inclusion
  
  ## Wireframes
     
-  - Main Page Wireframe:
+  - Main Page Wireframe: /workspace/Equality_and_Diversity/assets/wireframes 
  
  ## Logo
 
-- CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css
-- Images used are in the assests folder
+- CSS file is in the assets folder which were used to generate logo files are logo.css /workspace/Equality_and_Diversity/assets/images/logo2.webp
+- Images used are in the assests folder: /workspace/Equality_and_Diversity/assets/images/
 - - - -
 # Testing #
 
 ## HTML Validation
-- Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document.
-- The missing P element & the duplicate attribute on class in the Guide.html has been resolved.
-- Any issues with the index.html & contact.html page have remained as future fixes.
-  
+- Initial HTML Validation was performed using the W3C Mark up service and the results can be found: /workspace/Equality_and_Diversity/assets/Validation
+- A duplicate div has been resolved.
+
 ## CSS Validation
 - Initial W3C CSS style sheet validation link 
 - Test W3C Validation CSS style sheet validation 
-- The style.css form passed with only one issue that was with a newer feature that some browsers do not support just yet. We have left this in as the browsers still work as intended.
+- The style.css form passed with only one issue that was with a newer feature that some browsers do not support just yet. I have left this in as the browsers still work as intended.
 
 ## Accessibility
-- We entered our website through AccessScan to check we were compliant with with ADA standards. Our website is ADA-compliant as shown below:
+- We entered our website through GoogleLighthouse to check the accessabilty score. The  website shows as 87% as shown: assets/Validation/lighthouse.png
 
 
 ## Device Testing
 
 We have tested the site with the following devices:
 
-- Android Google Pixel 5
-- Desktop
-- Android Tablet
+- iPhone
+- Desktop 
 - Chrome Developer Tools (Simulating for all available device options)
 
-The site functioned as expected except for the loading on the guide page with the map & Youth Hostel content on smaller devices.
+The site functioned as expected
   
 ## Browser Testing
 
 Testing has been done on the following browsers:
 
 - Chrome (& Developer tools)
-- Opera
+- Edge
 - Safari
 
 ## Testing Breakdown
-- We completed the following tests on all mentioned devices and browsers including the steps & outcomes from said tests. Any noted bugs are explained below.
-
+- We completed the following tests in assets/Validation, all test passed
 
 ## Testing user stories
-
-We tested our site vs the user stories: 
-
-1. 
-User Story:
-
---
-4.
-User Story:
-
+NA
 ## Known Bugs
+NA
 
-## During development, we found these bugs and fixed them:
-
-### Nav bar disapperance
-
-- On smaller devices, the navbar burger logo to indicate the nav bar would disappear when switching to the guide page.
-- To fix this issue, we chekced the Home & Contact nav bar, realised they had no issues and copied the code back into the guide HTML.
-
-### Carousel Images poor quality on smaller devices
-
-- The carousel originally loaded on all devices, however the images appeared pixelated & poorly rendered.
-- To fix this issue, as a design choice, we decided to remove the carousel feature to mobile users to keep a high quality of user experience.
-
-## During development and testing, these are the current bugs:
-
-### Content on smaller devices
-
-- The content when deployed on a smaller device reshuffles the image to the bottom of the container.
-- The text in the last paragraph changes to the default font rather than our applied styling in the CSS folder. This is specific to Android.
-
-- - - -
 # Deployment #
 
 How this site was deployed
@@ -179,36 +155,12 @@ How this site was deployed
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 - Any changes pushed to the main branch will take effect on the live project
 
-- The live link is here: 
+- The live link is here: https://johnwgardner.github.io/Equality_and_Diversity/index.html
 
 - We used an agile methodology by using early deployment. We could see every change on a live site to aid our development process
 
 - - - -
-# Sources #
 
-## Media
- 
-
-## HomePage Content. 
--  This site was used as the key reference for the home page content.
--  The Text for the Home Page Content can be found here 
-
-## Content
-- The colour scheme was helped with the use of: https://coolors.co
-- The fonts were imported from Google Fonts.
-- The Wales Sans Headline font was imported specifically from: https://www.onlinewebfonts.com/download/87c492db36d96bca8d9d769a21874b83
-- Font awesome was used to add icons for UX purposes.
-- Balsamiq was used to create the wireframes during the design process.
-- The background texture is from: https://www.transparenttextures.com/
-
-## Code
-- The Logo CSS code orginated from here: https://www.w3schools.com/howto/howto_css_shapes.asp
-- The HTML & CSS uses Bootstrap Version 5.3: https://getbootstrap.com/docs/5.3/getting-started/introduction/
-
-# Future Features #
-
-- I would like to implement a review system where users can leave reviews & feedback that would be shown on the site. This requires an API/database that is not currently within our scope.
-- - - -
 ## Readme
 
 Ref:  www.codewithfaraz.com for: registration form in about me
