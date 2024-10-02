@@ -52,10 +52,15 @@ header {
     line-height: 0;
 }
 
+.learn {
+    padding: 40px;   
+}
+
 #why{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 10px;
     font-family: "Indie Flower", sans-serif;
 }
 
@@ -104,6 +109,11 @@ footer {
     .jumbotron a {
         margin-top: 20px;
         width: 100%;
+    }
+
+    #why{       
+        margin-top: 0;
+        margin-bottom: 50px;        
     }
 
 }
